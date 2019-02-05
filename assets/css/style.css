@@ -1,3 +1,20 @@
 nav.navbar {
     border-bottom: solid 1px grey;
 }
+#footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-top: solid 1px grey;
+}
+#footer a{
+    color: black;
+}
+#footer a:hover{
+    color: rgb(83, 83, 83);
+    transition: 400ms;
+}
+#footer a:link{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
