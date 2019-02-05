@@ -36,18 +36,32 @@ span#castle_price{
 span#castle_rent{
     display: block;
     color: #E00034;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+span#castle_reference{
+    font-size: 0.8em;
+}
+
+/************************************
+*
+* DESCRIPTION
+*
+*************************************/
+
+div.description_text_container{
+    background-color: rgba(0,0,0, 0.1)
 }
 
 h2#description_title{
     font-size: 1.4em;
 }
-div.description_text_container{
-    background-color: rgba(0,0,0, 0.1)
-}
 
 div.description_text_container p{
-    text-indent: 50px;
+    text-indent: 30px;
     padding: 0 20px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 
@@ -59,4 +73,8 @@ p#description_contact{
     font-size: 14px;
     color: red;
     text-indent: 0;
+}
+
+p#description_contact:hover{
+    cursor: pointer;
 }
