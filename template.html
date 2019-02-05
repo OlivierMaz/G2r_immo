@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- CSS perso après celui de bootstrap -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/props.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon/building.png"/>
     <title>G2R Immobilier</title>
     <meta name="description" content="Achetez, louez, vendez chez G2R Immobilier.">
@@ -47,22 +48,60 @@
                             <h2>Caroussel HERE</h2>
                         </div>
                         <!-- Infos importantes Bien, location, surface, nombre pièces prix -->
-                        <div class="col-12">
-                            <h2>Infos importantes Here</h2>
+                        <div class="col-12 mb-5">
+                            <section>
+                                <div class="row">
+                                    <div class="col-12">
+                                            <h2 id="castle_name">Chateau de Breuilmoulin</h2>
+                                    </div>
+                                    
+                                    <div class="col-8">
+                                        <ul class="castle_props_list">
+                                            <li>50 pièces</li>
+                                            <li>300 m²</li>
+                                            <li>Grand chateau</li>
+                                            <li>Grand jardin</li>
+                                            <li>2 cuisines</li>
+                                            <li>2 toilettes</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-4 text-right">
+                                        <span id="castle_price">1 000 000€</span>
+                                        <span id="castle_rent"> à partir de 1000€/jour</span>
+                                    </div>
+                                    <div class="col-8">
+                                        <span id="castle_location">Montreuil</span>
+                                    </div>
+                                    <div class="col-4">
+
+                                    </div>
+                                </div>
+                                
+                            </section>
                         </div>
                         <!-- Descriptif-->
                         <div class="col-12">
-                            <h2>Description</h2>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, error? Adipisci, nemo aliquam. Quasi assumenda similique excepturi nisi ea? Illum earum magni voluptatem fuga alias omnis vel autem nam consequuntur!
-                            Distinctio, officia nemo maxime eveniet error earum possimus tenetur corrupti fugiat. Accusantium quas nobis nesciunt soluta placeat impedit, quia accusamus molestias ratione id laborum, ducimus delectus dolores? Dolorem, suscipit maiores?
-                            Omnis commodi quo, aperiam autem ipsam ad similique dolor ipsa natus facere, placeat officiis vitae repudiandae. Deserunt, illum atque. Alias reprehenderit saepe sapiente tenetur beatae laborum aperiam numquam voluptate nostrum?
-                            Vero voluptatem consequatur eveniet dolorem neque tempora nemo autem soluta voluptates dolore ab, molestias minima voluptate maxime expedita error pariatur omnis laboriosam optio itaque accusantium porro sit laudantium modi! Aperiam.
-                            Dolorem iusto quis soluta et ullam deserunt id dicta? Officiis voluptatem deserunt aliquid amet suscipit laborum veniam tempora, sed numquam eum perspiciatis iste ullam corporis quas sit nisi corrupti labore?
-                            A temporibus magni enim adipisci, animi, voluptatum aut exercitationem explicabo odio est blanditiis facere dignissimos fugit praesentium, quo consequuntur? Et ipsam voluptates nisi necessitatibus delectus fuga reprehenderit voluptate corrupti eveniet!
-                            Eaque libero numquam maxime officiis neque necessitatibus nisi quia quibusdam error amet ex id impedit eveniet, sed laborum culpa placeat consequuntur expedita sunt consequatur unde et. A quia officiis culpa.
-                            Sequi autem sed nobis vel dolore laborum quidem aspernatur a aliquid, commodi hic natus ducimus eaque quibusdam ex soluta enim distinctio molestias veritatis? Quam eligendi autem maxime officia odio? Iure.
-                            Repellat, aperiam. Reiciendis nihil eligendi deleniti quae cum veniam officiis recusandae, natus officia praesentium dolorum necessitatibus voluptate et laboriosam blanditiis quas rem vitae repellat ab obcaecati doloremque! Veniam, sequi in.
-                            Architecto sapiente, accusamus consequuntur aspernatur fugiat beatae? Perferendis, eveniet at. Nam tenetur dolorum accusantium voluptatum porro dignissimos autem tempora optio impedit consectetur adipisci, voluptates doloremque cupiditate, eius magni, rerum eos!
+
+                            <div class="description_text_container">
+                                    <h2 id="description_title" class="pl-3 pt-4 mb-5">Un bien d'exception</h2>
+                                    <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, error? Adipisci, nemo aliquam. Quasi assumenda similique excepturi nisi ea? Illum earum magni voluptatem fuga alias omnis vel autem nam consequuntur!
+                                            Distinctio, officia nemo maxime eveniet error earum possimus tenetur corrupti fugiat. Accusantium quas nobis nesciunt soluta placeat impedit, quia accusamus molestias ratione id laborum, ducimus delectus dolores? Dolorem, suscipit maiores?
+                                            Omnis commodi quo, aperiam autem ipsam ad similique dolor ipsa natus facere, placeat officiis vitae repudiandae. Deserunt, illum atque. Alias reprehenderit saepe sapiente tenetur beatae laborum aperiam numquam voluptate nostrum?
+                                            Vero voluptatem consequatur eveniet dolorem neque tempora nemo autem soluta voluptates dolore ab, molestias minima voluptate maxime expedita error pariatur omnis laboriosam optio itaque accusantium porro sit laudantium modi! Aperiam.
+                                    </p>
+                                    <p>
+                                            Dolorem iusto quis soluta et ullam deserunt id dicta? Officiis voluptatem deserunt aliquid amet suscipit laborum veniam tempora, sed numquam eum perspiciatis iste ullam corporis quas sit nisi corrupti labore?
+                                            A temporibus magni enim adipisci, animi, voluptatum aut exercitationem explicabo odio est blanditiis facere dignissimos fugit praesentium, quo consequuntur? Et ipsam voluptates nisi necessitatibus delectus fuga reprehenderit voluptate corrupti eveniet!
+                                            Eaque libero numquam maxime officiis neque necessitatibus nisi quia quibusdam error amet ex id impedit eveniet, sed laborum culpa placeat consequuntur expedita sunt consequatur unde et. A quia officiis culpa.
+                                            Sequi autem sed nobis vel dolore laborum quidem aspernatur a aliquid, commodi hic natus ducimus eaque quibusdam ex soluta enim distinctio molestias veritatis? Quam eligendi autem maxime officia odio? Iure.
+                                            Repellat, aperiam. Reiciendis nihil eligendi deleniti quae cum veniam officiis recusandae, natus officia praesentium dolorum necessitatibus voluptate et laboriosam blanditiis quas rem vitae repellat ab obcaecati doloremque! Veniam, sequi in.
+                                            Architecto sapiente, accusamus consequuntur aspernatur fugiat beatae? Perferendis, eveniet at. Nam tenetur dolorum accusantium voluptatum porro dignissimos autem tempora optio impedit consectetur adipisci, voluptates doloremque cupiditate, eius magni, rerum eos!
+                                    </p>
+                                    <p id="description_contact">Contactez l'agence pour recevoir des agences supplémentaires...</p>
+                            </div>
+
                         </div>
                         <!-- DPE-->
                         <div class="col-12" id="dpe">
