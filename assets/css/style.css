@@ -7,6 +7,18 @@ html {
 body {
     margin-bottom: 60px; /* Margin bottom by footer height */
 }
+nav.navbar {
+    border-bottom: solid 1px grey;
+}
+
+
+/********* DPE *********/
+#dpe section img {
+    width: 70%;
+    height: 200px;
+    margin: auto;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -16,8 +28,4 @@ body {
     background-color: #f5f5f5;
     text-align: center;
     border-top: solid 1px grey;
-}
-
-nav.navbar {
-    border-bottom: solid 1px grey;
 }
