@@ -46,3 +46,16 @@ nav.navbar {
 =======
 >>>>>>> bcbf4e36fa57c0c590a97c57df6886d2738f26b5
 }
+
+/********* Options *********/
+#options{
+    background-color: #dddddd;
+    padding-left: 20px;
+    margin: 0 0 15px 15px;
+}
+#options img{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 15px;
+}
