@@ -79,16 +79,27 @@
                 </div>
 
                 <!-- Formulaire contact invisible en mobile -->
-                <div id="contact_agence" class="col-lg-4">
+                <div id="contact_agence" class="col-lg-4 mt-5">
                     <form>
-                        <h2>Contacter votre agence:</h2>
-                        <label for="name_input">Nom:</label>
-                        <input type="text" id="name_input" name="name_input" placeholder="Votre nom..."/>
-                        <label for="email_input">Email:</label>
-                        <input type="email" id="email_input" name="email_input" placeholder="Votre mail..."/>
-                        <label for="message_input">Votre Message:</label>
-                        <textarea id="message_input" name="message_input" placeholder="Message contact agence..."></textarea>
-                    </form>
+                        <div class="form-group">
+                          <label for="name">Nom *</label>
+                          <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre Email.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Numero de telephone <small id="phone" >( facultatif )</small></label>
+                            <input type="tel" id="phone" name="phone" pattern="^[0-9]*$" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="commentaires">Commentaires</label>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning mt-2">Envoyer</button>
+                      </form>
                 </div>
             </div>
         </div>

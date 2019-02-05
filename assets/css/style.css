@@ -19,6 +19,11 @@ nav.navbar {
     margin: auto;
 }
 
+/******** FORMULAIRE ********/
+#phone {
+    color: grey;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
