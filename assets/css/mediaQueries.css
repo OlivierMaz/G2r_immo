@@ -6,11 +6,24 @@
         
     }
 }
-/* FAIRE APPARAITRE LE BUTTON EN RESPONSIVE AU TOP */
+/* FAIRE APPARAITRE LE BUTTON EN RESPONSIVE AU TOP ( mais pas encore lol ) */
 @media only screen and (max-device-width: 992px)
 {
     #contactAgenceButtonTop {
         display: block;
-        
+        color: #fff !important;
+        position: absolute;
+        right: 16%;
+        height: 50px;
+        line-height: 5px;
+        width: 30%;  
+    }
+    #contactAgenceButtonTop a {
+        color: #fff;
+        /* font-size: 1.5em; */
+        /* font-size: 2.2vw; */
+    }
+    #contactAgenceButtonTop i {
+        color: #fff;
     }
 }

@@ -12,10 +12,8 @@ nav.navbar {
 }
 
 /********* DPE *********/
-#dpe section img {
-    width: 70%;
-    height: 220px;
-    margin: auto;
+#dpe img {
+    width: 100%;
 }
 
 /******** FORMULAIRE ********/
@@ -25,6 +23,7 @@ nav.navbar {
     right: 30px;
     box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.75);
     height: 510px;
+    z-index: 99;
 }
 #contact_agence h2 {
     text-align: center;
@@ -33,7 +32,7 @@ nav.navbar {
     color: grey;
 }
 #contactAgenceButtonTop {
-
+    display: none;
 } 
 
 .footer {
