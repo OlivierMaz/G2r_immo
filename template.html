@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- CSS perso après celui de bootstrap -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/props.css">
+    <link rel="stylesheet" href="assets/css/mediaQueries.css">
+
+    <!-- FONTAWSOME + FAVICON -->
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon/building.png"/>
     <!-- Lien Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -35,6 +37,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Louer</a>
                     </li>
+                    <button type="button" class="btn btn-light btn-lg">Large button</button>
                     </ul>
                 </div>
             </nav>
@@ -129,16 +132,28 @@
                 </div>
 
                 <!-- Formulaire contact invisible en mobile -->
-                <div id="contact_agence" class="col-lg-4">
+                <div id="contact_agence" class="col-lg-4 mt-5 mb-5">
+                    <h2>Contactez-nous</h2>
                     <form>
-                        <h2>Contacter votre agence:</h2>
-                        <label for="name_input">Nom:</label>
-                        <input type="text" id="name_input" name="name_input" placeholder="Votre nom..."/>
-                        <label for="email_input">Email:</label>
-                        <input type="email" id="email_input" name="email_input" placeholder="Votre mail..."/>
-                        <label for="message_input">Votre Message:</label>
-                        <textarea id="message_input" name="message_input" placeholder="Message contact agence..."></textarea>
-                    </form>
+                        <div class="form-group">
+                          <label for="name">Nom *</label>
+                          <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre Email.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Numero de telephone <small id="phone" >( facultatif )</small></label>
+                            <input type="tel" id="phone" name="phone" pattern="^[0-9]*$" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="commentaires">Commentaires</label>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info btn-lg btn-block mt-2"><i class="far fa-envelope mr-2"></i>Contacter l'agence</button>
+                      </form>
                 </div>
             </div>
         </div>
