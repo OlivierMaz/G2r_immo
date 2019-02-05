@@ -7,6 +7,18 @@ html {
 body {
     margin-bottom: 60px; /* Margin bottom by footer height */
 }
+nav.navbar {
+    border-bottom: solid 1px grey;
+}
+
+
+/********* DPE *********/
+#dpe section img {
+    width: 70%;
+    height: 220px;
+    margin: auto;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -16,6 +28,7 @@ body {
     background-color: #f5f5f5;
     text-align: center;
     border-top: solid 1px grey;
+<<<<<<< HEAD
 }
 
 nav.navbar {
@@ -31,4 +44,6 @@ nav.navbar {
 .footer a:link{
     text-decoration: none;
     font-size: 1.3rem;
+=======
+>>>>>>> bcbf4e36fa57c0c590a97c57df6886d2738f26b5
 }
