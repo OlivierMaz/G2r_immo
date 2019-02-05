@@ -1,0 +1,80 @@
+
+/*****************************
+*
+* INFOS IMPORTANTES
+*
+******************************/
+
+h2#castle_name, span#castle_location{
+    font-size: 20px;
+    font-weight: normal;
+}
+ul.castle_props_list{
+    list-style: none;
+    padding-top: 5px;
+}
+
+ul.castle_props_list li{
+    display: inline-block;
+    font-size: 14px;
+    background-color: lightgrey;
+    padding: 2px 4px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+ul.castle_props_list li:first-child{
+    margin-left: 0;
+}
+
+span#castle_price{
+    font-size: 1.4em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+span#castle_rent{
+    display: block;
+    color: #E00034;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+span#castle_reference{
+    font-size: 0.8em    ;
+}
+
+/************************************
+*
+* DESCRIPTION
+*
+*************************************/
+
+div.description_text_container{
+    background-color: rgba(0,0,0, 0.1)
+}
+
+h2#description_title{
+    font-size: 1.4em;
+}
+
+div.description_text_container p{
+    text-indent: 30px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+div.description_text_container p:last-child{
+    padding-bottom: 50px;
+}
+
+p#description_contact{
+    font-size: 14px;
+    color: red;
+    text-indent: 0;
+}
+
+p#description_contact:hover{
+    cursor: pointer;
+}
