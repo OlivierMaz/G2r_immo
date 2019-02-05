@@ -1,10 +1,16 @@
 /* FORMULAIRE EN BAS DE PAGE */
-
-/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 @media only screen and (max-device-width: 992px)
 {
     #contact_agence {
         position: initial;
+        
+    }
+}
+/* FAIRE APPARAITRE LE BUTTON EN RESPONSIVE AU TOP */
+@media only screen and (max-device-width: 992px)
+{
+    #contactAgenceButtonTop {
+        display: block;
         
     }
 }
