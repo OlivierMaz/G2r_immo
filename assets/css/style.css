@@ -17,20 +17,21 @@ nav.navbar {
 }
 /* ANIMATION SUR LE TITRE */
 @keyframes wheelHueColor {
-    from, to { color: hsl(324, 70%, 45%); }
-    10%      { color: hsl(360, 65%, 45%); }
-    20%      { color: hsl( 36, 80%, 45%); }
-    30%      { color: hsl( 72, 75%, 35%); }
-    40%      { color: hsl(108, 65%, 35%); }
-    50%      { color: hsl(144, 75%, 35%); }
-    60%      { color: hsl(180, 75%, 35%); }
-    70%      { color: hsl(216, 60%, 45%); }
-    80%      { color: hsl(252, 65%, 50%); }
-    90%      { color: hsl(288, 60%, 40%); }
+    
+    from, to { color: hsl(216, 60%, 45%); }
+    10%      { color: hsl(252, 65%, 50%); }
+    20%      { color: hsl(288, 60%, 40%); }
+    30%      { color: hsl(360, 65%, 45%); }
+    40%      { color: hsl( 36, 80%, 45%); }
+    50%      { color: hsl( 72, 75%, 35%); }
+    60%      { color: hsl(108, 65%, 35%); }
+    70%      { color: hsl(144, 75%, 35%); }
+    80%      { color: hsl(180, 75%, 35%); }
+    90%      { color: hsl(324, 70%, 45%); }
 }
 .navbar-brand {
-    color: hsl(324, 70%, 45%);
-    animation: wheelHueColor 100s infinite;
+    color: hsl(216, 70%, 45%);
+    animation: wheelHueColor 50s infinite;
 }
 @font-face {
 	font-family: "Ma Super Fonte";
@@ -75,7 +76,9 @@ h1#page_title{
 
 #dpe img {
     width: 100%;
+    height: 350px;;
 }
+
 
 /******** FORMULAIRE ********/
 form {
@@ -86,7 +89,7 @@ form {
 #contact_agence {
     background-color: #fff;
     box-shadow: 7px 7px 25px -6px grey;
-    height: 560px;
+    height: 580px;
 }
 #contact_agence h2 {
     text-align: center;
@@ -94,15 +97,43 @@ form {
 #phone {
     color: grey;
 }
+/* BUTTON DE FORMULAIRE AU TOP */
 #contactAgenceButtonTop {
     display: none;
     max-width: 40%;
     color: #fff;
 }
 #contactAgenceButtonTop a {
-    /* display: none; */
+    text-decoration: none;
     color: #fff;
-} 
+}
+/* BUTTON DE SAUVEGRADE AU TOP */
+#saveSearcButtonTop {
+    /* display: none; */
+    max-width: 40%;
+    color: #fff;
+}
+#saveSearcButtonTop a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/********* Options *********/
+
+#options img{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 0 15px;
+}
+
+/*------------------TAILLE DE LA MAP------------------------------*/
+#map { height: 400px; }
+
+
+
 
 /*********** FOOTER ****************/
 .footer {
@@ -127,14 +158,3 @@ form {
     transition: 400ms;
 }
 
-/********* Options *********/
-
-#options img{
-    height: 40px;
-    width: 40px;
-    float: left;
-    margin: 0 15px;
-}
-
-/*------------------TAILLE DE LA MAP------------------------------*/
-#map { height: 400px; }

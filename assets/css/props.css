@@ -8,6 +8,14 @@ h2#castle_name, span#castle_location{
     font-size: 20px;
     font-weight: normal;
 }
+h2#castle_name i {
+    float: right;
+}
+h2#castle_name i:hover {
+    /* transition: 300ms; */
+    transition-duration: 1s;
+    color: #138496;
+}
 ul.castle_props_list{
     list-style: none;
     padding-top: 5px;
