@@ -1,4 +1,8 @@
 
 /*------------------TAILLE DE LA MAP------------------------------*/
-#map { height: 400px; background-color: red; }
+#map { 
+    height: 400px; 
+    background-color: red;
+    z-index: 0;
+}
 
