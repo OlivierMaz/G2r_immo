@@ -10,6 +10,10 @@ body {
 nav.navbar {
     border-bottom: solid 1px grey;
 }
+/*********** HEADER ****************/
+#header a:hover{
+    transition: 400ms;
+}
 
 /********* DPE *********/
 #dpe img {
@@ -35,6 +39,7 @@ nav.navbar {
     display: none;
 } 
 
+/*********** FOOTER ****************/
 .footer {
     position: absolute;
     bottom: 0;
