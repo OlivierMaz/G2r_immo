@@ -53,7 +53,7 @@
                 </li>
             </ul>
         </div>
-        <button type="button" class="btn btn-info" id="contactAgenceButtonTop"><span class="navbar-text"><i class="far fa-envelope mr-2"></i><a href="#contact_agence"> Contacter l'agence </a></span></button>
+        <span class="navbar-text"><i class="far fa-envelope mr-2"></i><a href="#contact_agence" role="button"> Contacter l'agence </a></span>
     </nav>
 </header>
 
@@ -193,7 +193,7 @@
             </div>
 
                 <!-- Formulaire contact invisible en mobile -->
-                <div id="contact_agence" class="col-lg-4 mr-2">
+                <div id="contact_agence" class="col-lg-4 col-md-12 col-sm-12 mr-2">
                     <h2>Contactez-nous</h2>
                     <form>
                         <div class="form-group">
@@ -206,16 +206,16 @@
                             <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre Email.</small>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Numero de telephone <small id="phone">( facultatif )</small></label>
+                            <label for="phone">Numero de telephone <small>( facultatif )</small></label>
                             <input type="tel" id="phone" name="phone" pattern="^[0-9]*$" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="commentaires">Commentaires</label>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                            <label>Commentaires</label>
+                            <textarea class="form-control" aria-label="With textarea" id="textarea"></textarea>
                         </div>
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1"><small id="emailHelp" class="form-text text-muted">Je ne souhaite pas recevoir les annonces similaires et les suggestions personnalisées de G2r_immo.</small></label>
+                            <label class="form-check-label" for="exampleCheck1"><small class="form-text text-muted">Je ne souhaite pas recevoir les annonces similaires et les suggestions personnalisées de G2r_immo.</small></label>
                             <button type="submit" class="btn btn-info btn-lg btn-block mt-2"><i class="far fa-envelope mr-2"></i>Contacter l'agence</button>
                         </div>
                     </form>
