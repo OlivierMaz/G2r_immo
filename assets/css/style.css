@@ -15,19 +15,29 @@ nav.navbar {
     transition: 400ms;
 }
 
+/************** CAROUSSEL ****************/
+.carousel-inner {
+    width: auto;
+    max-height: 450px;
+    overflow: hidden;
+}
+
 /********* DPE *********/
 #dpe img {
     width: 100%;
 }
 
 /******** FORMULAIRE ********/
+form {
+    z-index: 999999;
+}
 #contact_agence {
     background-color: #fff;
     position: fixed;
     right: 30px;
     box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.75);
     height: 560px;
-    z-index: 99;
+    z-index: 9999999;
 }
 #contact_agence h2 {
     text-align: center;
