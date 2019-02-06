@@ -15,19 +15,32 @@ nav.navbar {
     transition: 400ms;
 }
 
+/************** CAROUSSEL ****************/
+.carousel-inner {
+    width: auto;
+    max-height: 450px;
+    overflow: hidden;
+}
+
 /********* DPE *********/
+
 #dpe img {
     width: 100%;
 }
 
 /******** FORMULAIRE ********/
+form {
+    z-index: 999999;
+    width: 80%;
+    margin: auto;
+}
 #contact_agence {
     background-color: #fff;
-    position: fixed;
-    right: 30px;
+
     box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.75);
     height: 560px;
-    z-index: 99;
+    z-index: 9999999;
+    /* background-color: red; */
 }
 #contact_agence h2 {
     text-align: center;
@@ -63,15 +76,12 @@ nav.navbar {
 }
 
 /********* Options *********/
-#options{
-    background-color: rgba(0,0,0, 0.1);
-    padding-left: 20px;
-}
+
 #options img{
     height: 40px;
     width: 40px;
     float: left;
-    margin-right: 15px;
+    margin: 0 15px;
 }
 
 /*------------------TAILLE DE LA MAP------------------------------*/
