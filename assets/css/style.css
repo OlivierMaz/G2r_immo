@@ -13,6 +13,55 @@ nav.navbar {
 /*********** HEADER ****************/
 #header a:hover{
     transition: 400ms;
+    /* color: red; */
+}
+/* ANIMATION SUR LE TITRE */
+@keyframes wheelHueColor {
+    from, to { color: hsl(324, 70%, 45%); }
+    10%      { color: hsl(360, 65%, 45%); }
+    20%      { color: hsl( 36, 80%, 45%); }
+    30%      { color: hsl( 72, 75%, 35%); }
+    40%      { color: hsl(108, 65%, 35%); }
+    50%      { color: hsl(144, 75%, 35%); }
+    60%      { color: hsl(180, 75%, 35%); }
+    70%      { color: hsl(216, 60%, 45%); }
+    80%      { color: hsl(252, 65%, 50%); }
+    90%      { color: hsl(288, 60%, 40%); }
+}
+.navbar-brand {
+    color: hsl(324, 70%, 45%);
+    animation: wheelHueColor 100s infinite;
+}
+@font-face {
+	font-family: "Ma Super Fonte";
+	src: url('berkshireswash-regular.ttf');
+}
+
+/* TAILLE ET POLICE DU LOGO */
+#titre_logo {
+    font-family: "berkshireswash-regular";
+    font-size: 1.5em;
+    line-height: 2px;
+}
+.logo_g2r {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+h1#page_title{
+    text-indent: 15px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+/* COULEUR SUR LES LIENS DE NAV */
+.nav-link {
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}.nav-link:hover {
+    color: #fff!important;
+    background-color: #138496;
+    border-radius: 5px;
 }
 
 /************** CAROUSSEL ****************/
