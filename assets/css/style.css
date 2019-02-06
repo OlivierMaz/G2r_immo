@@ -47,6 +47,12 @@ form {
 }
 #contactAgenceButtonTop {
     display: none;
+    max-width: 40%;
+    color: #fff;
+}
+#contactAgenceButtonTop a {
+    /* display: none; */
+    color: #fff;
 } 
 
 /*********** FOOTER ****************/
