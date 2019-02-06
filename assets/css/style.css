@@ -58,3 +58,6 @@ nav.navbar {
     float: left;
     margin-right: 15px;
 }
+
+/*------------------TAILLE DE LA MAP------------------------------*/
+#map { height: 400px; }
