@@ -1,11 +1,20 @@
+@media only screen and (min-device-width: 1500px)
+{
+    #contact_agence {
+        position: fixed;
+        right: 0;        
+    }
+}
+
 /* FORMULAIRE EN BAS DE PAGE */
 @media only screen and (max-device-width: 992px)
 {
     #contact_agence {
-        position: initial;
-        
+        /* position: initial; */
+        /* display: block; */
     }
 }
+
 /* FAIRE APPARAITRE LE BUTTON EN RESPONSIVE AU TOP ( mais pas encore lol ) */
 @media only screen and (max-device-width: 992px)
 {
