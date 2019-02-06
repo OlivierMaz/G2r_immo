@@ -8,17 +8,26 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
     <!-- CSS perso après celui de bootstrap -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/mediaQueries.css">
     <link rel="stylesheet" href="assets/css/props.css">
 
+    <!-- MAP LINK PART -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+    crossorigin=""></script>
+   
+
     <!-- FONTAWSOME + FAVICON -->
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon/building.png" />
     <!-- Lien Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
     <title>G2R Immobilier</title>
     <meta name="description" content="Achetez, louez, vendez chez G2R Immobilier.">
     <script src="assets/js/script.js"></script>
@@ -29,6 +38,83 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">G2R Immobilier</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+<<<<<<< HEAD
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Acheter <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vendre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">louer</a>
+                </li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-info" id="contactAgenceButtonTop"><span class="navbar-text"><i class="far fa-envelope mr-2"></i><a href="#contact_agence"> Contacter l'agence </a></span></button>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-lg-8">
+                <div class="row">
+                    <h1>LE CHATEAU DE MES RÊVES</h1>
+                    <!-- Caroussel Images Chateaux -->
+                    <div class="col-12">
+                        <h2>Caroussel HERE</h2>
+                    </div>
+                    <!-- Infos importantes Bien, location, surface, nombre pièces prix -->
+                    <div class="col-12 mb-5">
+                        <section>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 id="castle_name">Chateau de Breuilmoulin</h2>
+                                </div>
+
+                                <div class="col-8">
+                                    <ul class="castle_props_list">
+                                        <li>50 pièces</li>
+                                        <li>300 m²</li>
+                                        <li>Grand chateau</li>
+                                        <li>Grand jardin</li>
+                                        <li>2 cuisines</li>
+                                        <li>2 toilettes</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-4 text-right">
+                                    <span id="castle_price">1 000 000€</span>
+                                    <span id="castle_rent"> à partir de 1000€/jour</span>
+                                </div>
+                                <div class="col-8">
+                                    <span id="castle_location">Montreuil</span>
+                                </div>
+                                <div class="col-4" id="options">
+                                    <h2 class="my-3">Options</h2>
+
+                                    <img src="assets/icons/garage.png" alt="garage">
+                                    <p>Garage : non</p>
+
+
+                                    <img src="assets/icons/elevator.png" alt="elevator">
+                                    <p>Ascenseur : non</p>
+
+                                    <img src="assets/icons/basement.png" alt="basement">
+                                    <p>Cave : oui</p>
+
+                                    <img src="assets/icons/balcony.png" alt="balcony">
+                                    <p>Terrasse : oui</p>
+
+                                    <img src="assets/icons/caretaker.png" alt="caretaker">
+                                    <p>Gardien : oui</p>
+                                </div>
+=======
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,7 +127,7 @@
                         <a class="nav-link" href="#">Vendre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">louer</a>
+                        <a class="nav-link" href="#">Louer</a>
                     </li>
                 </ul>
             </div>
@@ -85,115 +171,124 @@
                                     <div class="col-8">
                                         <span id="castle_location">Montreuil</span>
                                     </div>
-                                    <div class="col-4" id="options">
-                                        <h2 class="my-3">Options</h2>
-
-                                        <img src="assets/icons/garage.png" alt="garage">
-                                        <p>Garage : non</p>
-
-
-                                        <img src="assets/icons/elevator.png" alt="elevator">
-                                        <p>Ascenseur : non</p>
-
-                                        <img src="assets/icons/basement.png" alt="basement">
-                                        <p>Cave : oui</p>
-
-                                        <img src="assets/icons/balcony.png" alt="balcony">
-                                        <p>Terrasse : oui</p>
-
-                                        <img src="assets/icons/caretaker.png" alt="caretaker">
-                                        <p>Gardien : oui</p>
+                                    <div class="col-4 text-right">
+                                        <span id="castle_reference">
+                                            ref: #e7hfo5df6
+                                        </span> 
                                     </div>
                                 </div>
-
                             </section>
                         </div>
-                        <!-- Descriptif-->
-                        <div class="col-12">
+                        <!--OPTIONS-->
+                        <div class="col-12" id="options">
+                            <h2 class="my-3">Options</h2>
 
-                            <div class="description_text_container">
-                                <h2 id="description_title" class="pl-3 pt-4 mb-5">Un bien d'exception</h2>
-                                <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur sequi
-                                    accusantium iste placeat temporibus nostrum reiciendis maxime ex quas, consequatur
-                                    voluptates provident atque odio esse est at officiis inventore dolore!
-                                    Corporis harum aspernatur reprehenderit consequatur minus aut reiciendis facere
-                                    eligendi sit, qui itaque minima perferendis perspiciatis adipisci maiores dolor in
-                                    magnam ratione nostrum amet nemo assumenda ut natus? Tempora, iste?
-                                    Aspernatur aut quae aliquam voluptas porro. Ex, dolor nesciunt doloremque incidunt
-                                    nemo ipsa excepturi facilis perspiciatis voluptates, sequi nihil eum enim nostrum
-                                    itaque iusto culpa! Illum atque unde possimus nulla.
-                                    Enim, nam et iure vero incidunt aliquid quos ex officiis quo minus expedita
-                                    similique minima harum molestiae porro fugiat impedit, itaque voluptatum ipsa
-                                    officia eligendi error, quis dicta? Soluta, incidunt.
-                                    Consequuntur nihil, accusantium numquam aperiam, porro eius minima quo at dolorem
-                                    similique velit, ea magnam ullam placeat perspiciatis accusamus id quia autem!
-                                    Sapiente neque, accusantium dicta ex quibusdam dolore odio?
-                                </p>
-                                <p id="description_contact">Contactez l'agence pour recevoir des infos
-                                    supplémentaires...</p>
-                            </div>
+                            <img src="assets/icons/garage.png" alt="garage">
+                            <p>Garage : non</p>
 
+
+                            <img src="assets/icons/elevator.png" alt="elevator">
+                            <p>Ascenseur : non</p>
+
+                            <img src="assets/icons/basement.png" alt="basement">
+                            <p>Cave : oui</p>
+
+                            <img src="assets/icons/balcony.png" alt="balcony">
+                            <p>Terrasse : oui</p>
+
+                            <img src="assets/icons/caretaker.png" alt="caretaker">
+                            <p>Gardien : oui</p>
                         </div>
-                        <!-- DPE-->
-                        <div class="col-12" id="dpe">
-                            <h2>DPE : diagnostic de performance énergétique</h2>
-                            <section>
-                                <img src="assets/images/DPE/Diagnostic.jpg" alt="DPE">
-                            </section>
+
+                    <!-- Descriptif-->
+                    <div class="col-12">
+
+                        <div class="description_text_container">
+                            <h2 id="description_title" class="pl-3 pt-4 mb-5">Un bien d'exception</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur sequi
+                                accusantium iste placeat temporibus nostrum reiciendis maxime ex quas, consequatur
+                                voluptates provident atque odio esse est at officiis inventore dolore!
+                                Corporis harum aspernatur reprehenderit consequatur minus aut reiciendis facere
+                                eligendi sit, qui itaque minima perferendis perspiciatis adipisci maiores dolor in
+                                magnam ratione nostrum amet nemo assumenda ut natus? Tempora, iste?
+                                Aspernatur aut quae aliquam voluptas porro. Ex, dolor nesciunt doloremque incidunt
+                                nemo ipsa excepturi facilis perspiciatis voluptates, sequi nihil eum enim nostrum
+                                itaque iusto culpa! Illum atque unde possimus nulla.
+                                Enim, nam et iure vero incidunt aliquid quos ex officiis quo minus expedita
+                                similique minima harum molestiae porro fugiat impedit, itaque voluptatum ipsa
+                                officia eligendi error, quis dicta? Soluta, incidunt.
+                                Consequuntur nihil, accusantium numquam aperiam, porro eius minima quo at dolorem
+                                similique velit, ea magnam ullam placeat perspiciatis accusamus id quia autem!
+                                Sapiente neque, accusantium dicta ex quibusdam dolore odio?
+                            </p>
+                            <p id="description_contact">Contactez l'agence pour recevoir des infos
+                            supplémentaires...</p>
                         </div>
-                        <!-- MAP-->
-                        <div class="col-12">
-                            <h2>PLACE MAP HERE</h2>
-                        </div>
+
+                    </div>
+                    <!-- DPE-->
+                    <div class="col-12" id="dpe">
+                        <h2>DPE : diagnostic de performance énergétique</h2>
+                        <section>
+                            <img src="assets/images/DPE/Diagnostic.jpg" alt="DPE">
+                        </section>
+                    </div>
+                    <!-- MAP-->
+                    <div class="col-12">
+
+                        <div id="map"></div>
+
                     </div>
                 </div>
+            </div>
 
-                <!-- Formulaire contact invisible en mobile -->
-                <div id="contact_agence" class="col-lg-4 mt-5 mb-5">
-                    <h2>Contactez-nous</h2>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Nom *</label>
-                            <input type="text" class="form-control" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email *</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-                            <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre Email.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Numero de telephone <small id="phone">( facultatif )</small></label>
-                            <input type="tel" id="phone" name="phone" pattern="^[0-9]*$" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="commentaires">Commentaires</label>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-info btn-lg btn-block mt-2"><i class="far fa-envelope mr-2"></i>Contacter
-                            l'agence</button>
-                    </form>
-                </div>
+            <!-- Formulaire contact invisible en mobile -->
+            <div id="contact_agence" class="col-lg-4 mt-5 mb-5">
+                <h2>Contactez-nous</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nom *</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre Email.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Numero de telephone <small id="phone">( facultatif )</small></label>
+                        <input type="tel" id="phone" name="phone" pattern="^[0-9]*$" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="commentaires">Commentaires</label>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info btn-lg btn-block mt-2"><i class="far fa-envelope mr-2"></i>Contacter
+                    l'agence</button>
+                </form>
             </div>
         </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <a href="">Contact</a>
-            <span> / </span>
-            <a href="">Mentions légales</a>
-            <span class="text-muted">© 2018 - G2R Immobilier - Tous droits réservés</span>
-        </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <!-- On met les liens juste avant la fermeture du body -->
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <a href="">Contact</a>
+        <span> / </span>
+        <a href="">Mentions légales</a>
+        <span class="text-muted">© 2018 - G2R Immobilier - Tous droits réservés</span>
+    </div>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/map.js"></script>
+<!-- On met les liens juste avant la fermeture du body -->
 </body>
 
 </html>
